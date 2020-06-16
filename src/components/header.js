@@ -1,19 +1,21 @@
 import { Link } from "gatsby"
 import React from "react"
+import '../styles/styles.scss'
 
 const Header = () => (
   <header>
-    <div classname="container">
-      <div classname="logo">
-        <Link to= "/">Laina Karosic</Link>
-      </div>
-      <div classname="navigation">
-        <nav>
-          <Link to="/about">About Me</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/contact">Contact</Link>
-
-        </nav>
+    <div className="container">
+      <div className="inner-header">
+        <div className="logo">
+          <Link to="/">Laina Karosic</Link>
+        </div>
+        <div className="navigation">
+          <nav>
+            <Link to="/about">About Me</Link>
+            <Link to="/projects">Projects</Link>
+            <Link to="/contact">Contact</Link>
+          </nav>
+        </div>
       </div>
     </div>
   </header>

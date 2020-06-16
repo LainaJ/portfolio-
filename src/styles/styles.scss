@@ -7,9 +7,12 @@ $black: #000;
 $maroon: #83333e;
 $off-white: #f2f4f5;
 
-html, body {
+html, 
+body {
     font-family: $font;
     font-size: 16px; 
+    padding: 0;
+    margin: 0;
 }
 
 //very basic container - can change later 
@@ -29,5 +32,66 @@ html, body {
     @media(max-width: 976px){
         width: 768px;
         min-width: 768px;
+    }
+}
+
+//header
+header {
+    height: 80px; 
+    width: 100%; 
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    .inner-header {
+        display: flex;
+        align-items: center; 
+        justify-content: space-between;
+        height: 80px; 
+        .logo {
+            a {
+                font-weight: 700;
+                text-decoration: none;
+                letter-spacing: 1.5px;
+                color: $black; 
+            }
+        }
+        .navigation {
+            nav {
+                a {
+                    margin: 0 20px;
+                    text-decoration: none;
+                    letter-spacing: 1.75px;
+                    text-transform: uppercase;
+                    font-size: 0.75rem;
+                    color: $black;
+                    &:last-child {
+                        margin-right: 0px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//banner
+.banner {
+    display: flex;
+    align-items: center;
+    background-color: $white;
+    position: relative;
+    height: 100vh;
+    .row {
+        position: relative;
+        .main-text {
+            //if I want my name bigger
+            width: 100%;
+            text-align: center;
+            //not responsive yet
+            @media (max-width: 1440px) {
+                font-size: 4.4rem;
+                letter-spacing: 36px;
+            }
+        }
     }
 }
