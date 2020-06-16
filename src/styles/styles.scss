@@ -84,22 +84,37 @@ header {
     .row {
         position: relative;
         .main-text {
-            //if I want my name bigger
+            //my name
             font-size: 5.8rem;
+            font-weight: 700;
             color: $white;
             position: absolute;
             width: 100%;
             left: 0;
             top:50%;
+            letter-spacing: 42px;
             // transform: translateY(-50%);
             text-align: center;
             mix-blend-mode: difference;
             z-index: 9;
-            //not responsive yet
+            //this is not responsive yet
             @media (max-width: 1440px) {
                 font-size: 4.4rem;
                 letter-spacing: 36px;
             }
         }
+        .main-image{
+            width: 536px;
+            margin: auto;
+            @media (max-width: 1440px) {
+                width: 436px;
+            }
+        }
     }
+}
+
+//about-me
+.about-me {
+
+    color: $black;
 }
