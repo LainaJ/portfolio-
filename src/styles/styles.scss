@@ -85,8 +85,16 @@ header {
         position: relative;
         .main-text {
             //if I want my name bigger
+            font-size: 5.8rem;
+            color: $white;
+            position: absolute;
             width: 100%;
+            left: 0;
+            top:50%;
+            // transform: translateY(-50%);
             text-align: center;
+            mix-blend-mode: difference;
+            z-index: 9;
             //not responsive yet
             @media (max-width: 1440px) {
                 font-size: 4.4rem;
