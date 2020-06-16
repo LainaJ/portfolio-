@@ -23,6 +23,11 @@ const AboutMe = () => {
                         <Link to="/projects">View Projects</Link>
                     </div>
                 </div>
+                <div className="images">
+                    <div className="top-right">
+                        {/* potential image here */}
+                    </div>
+                </div>
             </div>
         </div>
     </div>
