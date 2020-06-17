@@ -21,11 +21,8 @@ const Banner = () => {
         <div className="banner">
             <div className="container">
                 <div className="row">
-                    <div className="main-text">Laina</div>
-                    <div className="main-image">
-                        <Image />
-                            {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
-                    </div>
+                    <div className="main-text">Hi, I'm Laina</div>
+                    <div className="main-title">//Software Developer</div>
                 </div>
             </div>
         </div>
