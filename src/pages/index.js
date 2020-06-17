@@ -5,6 +5,8 @@ import '../styles/styles.scss'
 import Header from '../components/header.js'
 import Banner from '../components/banner.js'
 import AboutMe from '../components/aboutMe.js'
+import Footer from '../components/footer.js'
+
 
 
 const IndexPage = () => (
@@ -12,6 +14,7 @@ const IndexPage = () => (
     <Header />
     <Banner />
     <AboutMe />
+    <Footer />
   </div>
 )
 

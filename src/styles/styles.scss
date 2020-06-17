@@ -160,3 +160,34 @@ header {
         }
     
 }
+
+//footer
+
+//footer
+footer {
+    .socials {
+      background: $off-white;
+      height: 200px;
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+    }
+    .footer {
+      background: lightslategray;
+      height: 80px;
+      hr {
+        border: 0;
+        box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 0.1);
+        height: 1px;
+        margin: 0;
+      }
+      .copyright {
+        color: $off-white;
+        padding: 0 120px;
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
