@@ -131,7 +131,7 @@ header {
             display: flex;
             justify-content: space-around;
             align-items: center;
-            margin: 12em;
+            margin: 0 13em;
             .content {
                 width: 33%;
                 @media (max-width: 1440px){
@@ -178,7 +178,41 @@ header {
     
 }
 
-//footer
+//video section
+.project-section {
+    margin-top: 160px;
+    .container {
+      .video-player {
+        width: 60%;
+        margin: 0 auto;
+      }
+      .video-content {
+        display: flex;
+        justify-content: space-between;
+        margin: 80px 0 120px;
+        .title {
+          width: 50%;
+          h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            letter-spacing: 1.5px;
+            margin: 0;
+          }
+        }
+        .content {
+          width: 50%;
+          p {
+            font-size: 1rem;
+            line-height: 2rem;
+            font-weight: 300;
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  
 
 //footer
 footer {

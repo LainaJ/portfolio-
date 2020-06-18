@@ -19,7 +19,7 @@ const AboutMe = () => {
             <div className="inner-about">
                 <div className="content">
                     <h3>About Me</h3>
-                    <p>I'm a NYC-based software developer with a passion for building beautiful & functional websites. My background experience in the medical field entailed designing and building customized solutions and assistive technology for clients. Driven to create meaningful products with attentiveness to user experience. 
+                    <p>I'm a NYC-based software developer with a passion for building beautiful & functional websites. My background in the medical field involved designing and building customized solutions and assistive technology for clients. I love creating meaningful products with attentiveness to user experience. 
                     </p>
                     <div className="btn-row">
                         <Link to="/projects">View Projects</Link>
