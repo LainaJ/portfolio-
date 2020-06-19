@@ -114,6 +114,11 @@ header {
             text-align: center;
             mix-blend-mode: difference;
             z-index: 9;
+            // .backslash {
+            // background: -webkit-linear-gradient(#eee, #333);
+            // -webkit-background-clip: text;
+            // -webkit-text-fill-color: transparent;
+            // }
             //this is not responsive yet
             @media (max-width: 1440px) {
                 font-size: 4.4rem;
@@ -130,9 +135,9 @@ header {
     position: relative;
         .inner-about {
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-items: flex-start;
-            margin: 0 13em;
+            margin: 0px 20em;
             .content {
                 width: 33%;
                 @media (max-width: 1440px){
@@ -141,7 +146,7 @@ header {
                 h3{
                     font-weight: 700;
                     text-transform: uppercase;
-                    font-size: 1.8rem;
+                    font-size: 2rem;
                     letter-spacing: 1.5px;
                     margin: 0;
                 }
@@ -171,7 +176,7 @@ header {
                 img {
                     border-radius: 2rem;
                     // padding: 6rem;
-                    width: 200px;
+                    width: 250px;
                 }
             }
         }
@@ -181,43 +186,57 @@ header {
 //video section
 .project-section {
     margin-top: 160px;
+    padding: 48px 0;
+    position: relative;
     .container {
+        .project-heading {
+            display: flex;
+            // justify-content: space-around;
+            align-items: flex-start;
+            margin: 0px 20em;;
         h3 {
+            align-self: flex-start;
             font-weight: 700;
             text-transform: uppercase;
-            font-size: 1.8rem;
+            font-size: 2rem;
             letter-spacing: 1.5px;
-            margin: 0;
+            margin: 0 0;
         }
-    
+    }
+    .inner-project {
+        display: flex;
+            @media (max-width: 1440px){
+                flex-direction: column;
+            }
+        align-items: flex-start;
+        justify-content: space-between;
+        margin: 0px 20em;
       .video-player {
-        // width: 60%;
-        // margin: 0 auto;
+        width: 50%;
+        margin: 40px 0 72px;
       }
       .video-content {
         display: flex;
-        justify-content: space-between;
-        margin: 80px 0 120px;
+        justify-content: flex-end;
+        margin: 0 0 120px 0;
         .title {
           width: 50%;
-          h3 {
-            font-weight: 700;
-            text-transform: uppercase;
-            font-size: 1.8rem;
-            letter-spacing: 1.5px;
-            margin: 0;
-          }
         }
+        //*fix content width if I change video description 
         .content {
-          width: 50%;
+          width: 80%;
+          h4{
+            margin: 40px 0 40px;
+          }
           p {
             font-size: 1rem;
             line-height: 2rem;
             font-weight: 300;
-            margin: 0;
-          }
+            font-style: italic;
         }
-      }
+        }
+        }
+     }//inner project
     }
   }
   
