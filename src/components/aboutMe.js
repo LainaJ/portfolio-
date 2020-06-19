@@ -25,12 +25,12 @@ const AboutMe = () => {
                         <Link to="/projects">View Projects</Link>
                     </div>
                 </div>
-                <div className="images">
+                {/* <div className="images"> */}
                     <div className="main-image">
                     <img src={Portrait} alt="portrait" />
                             {/* <Img fluid={data.placeholderImage.childImageSharp.fluid} /> */}
                     </div>
-                </div>
+                {/* </div> */}
             </div>
         </div>
     </div>

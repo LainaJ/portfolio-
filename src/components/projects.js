@@ -46,15 +46,6 @@ const Projects = () => {
             </div>
         </div> {/* end each project*/}
 
-
-
-
-
-
-
-
-
-
       </div>{/* end container div */}
     </div> //end project section 
   )
