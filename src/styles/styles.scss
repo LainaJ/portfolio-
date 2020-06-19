@@ -39,9 +39,10 @@ body {
 header {
     height: 80px; 
     width: 100%; 
-    position: absolute;
+    position: fixed; 
     top: 0px;
     z-index: 10;
+    background-color: $off-white;
     .inner-header {
         display: flex;
         align-items: center; 
@@ -130,7 +131,7 @@ header {
         .inner-about {
             display: flex;
             justify-content: space-around;
-            align-items: center;
+            align-items: flex-start;
             margin: 0 13em;
             .content {
                 width: 33%;
@@ -160,7 +161,6 @@ header {
                         text-decoration: none;
                         text-transform: uppercase;
                     }
-
                 }
             }
             .main-image{
@@ -169,22 +169,30 @@ header {
                     // width: 20%;
                 }
                 img {
-                    border-radius: 7.5em;
-                    padding: 5rem;
+                    border-radius: 3em;
+                    // padding: 6rem;
                     width: 200px;
                 }
             }
         }
-    
 }
+
 
 //video section
 .project-section {
     margin-top: 160px;
     .container {
+        h3 {
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.8rem;
+            letter-spacing: 1.5px;
+            margin: 0;
+        }
+    
       .video-player {
-        width: 60%;
-        margin: 0 auto;
+        // width: 60%;
+        // margin: 0 auto;
       }
       .video-content {
         display: flex;

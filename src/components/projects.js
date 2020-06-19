@@ -4,13 +4,15 @@ const Projects = () => {
   return (
     <div className="project-section">
       <div className="container">
-        <div className="video-player">
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/tDelWyMwB0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </div>
+        <div className="inner-project">
+            <div className="video-player">
+                <h3>Projects</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tDelWyMwB0A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
         <div className="video-content">
-          <div className="title">
+          {/* <div className="title">
             <h3>Let’s Talk About It Now</h3>
-          </div>
+          </div> */}
           <div className="content">
             <p>
               I’m so happy to present the 1st trailer of the film. “Let’s Talk
@@ -22,6 +24,7 @@ const Projects = () => {
               opposed to leaving it on the back burner.
             </p>
           </div>
+        </div>
         </div>
       </div>
     </div>
