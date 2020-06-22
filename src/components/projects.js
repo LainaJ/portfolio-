@@ -21,15 +21,11 @@ const Projects = () => {
           <div className="video-content">
             <div className="content">
               <h4>Pomodoro</h4>
-              <p>
-                A time-management and productivity application inspired by the
-                Pomodoro Technique
-              </p>
+              <p>A time-management and productivity application inspired by the Pomodoro Technique</p>
             </div>
           </div>
-        </div>{" "}
-        {/* end each project*/}
-        {/* project 2 */}
+        </div>
+        {/* project 2 begin*/}
         <div className="inner-project">
           <div className="video-player">
             <iframe
@@ -48,7 +44,7 @@ const Projects = () => {
             </div>
           </div>
         </div>{" "}
-        {/* end each project*/}
+        {/* project 3 begin*/}
         <div className="inner-project">
           <div className="video-player">
             <iframe
