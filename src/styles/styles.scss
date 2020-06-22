@@ -219,7 +219,6 @@ header {
       }
     }
     .inner-project {
-    background-color: whitesmoke;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -256,7 +255,7 @@ header {
         display: flex;
         align-self: flex-start;
         justify-content: flex-start;
-        margin: 0 0 120px;
+        margin: 0px 0px 120px 50px;
         width: 80%;
     //        @media (max-width: 1440px) {
     //     // flex-direction: row;
@@ -269,7 +268,7 @@ header {
         .content {
           width: 80%;
           h4 {
-            margin: 40px 0 40px;
+            margin: 0px 0 40px;
           }
           p {
             font-size: 1rem;
