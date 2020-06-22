@@ -170,7 +170,6 @@ header {
         font-weight: 300;
         margin: 40px 0 72px;
       }
-
       .btn-row {
         a {
           font-weight: 700;
@@ -183,7 +182,7 @@ header {
       }
     }
     .main-image {
-      margin: auto;
+    //   margin: auto;
       @media (max-width: 1440px) {
         width: 20%;
       }
@@ -193,7 +192,7 @@ header {
       }
       img {
         border-radius: 2rem;
-        width: 250px;
+        width: 300px;
       }
     }
   }
@@ -209,13 +208,16 @@ header {
       display: flex;
       align-items: flex-start;
       margin: 0px 20em;
+      @media (max-width: 1280px){
+        justify-content: center;
+        }
       h3 {
         align-self: flex-start;
         font-weight: 700;
         text-transform: uppercase;
         font-size: 2rem;
         letter-spacing: 1.5px;
-        margin: 0 0;
+        margin: 0;
       }
     }
     .inner-project {
@@ -226,10 +228,12 @@ header {
       @media (max-width: 1440px) {
           display: flex;
           flex-direction: column;
-          justify-content: center;
-          margin: 0;
-        
+          justify-content: center;        
       }
+       @media (max-width: 1280px){
+            margin-left: 20%;
+            margin-right: 20%;
+        }
       .video-player {
         display: flex;
         justify-content: center;
@@ -257,16 +261,26 @@ header {
         justify-content: flex-start;
         margin: 0px 0px 120px 50px;
         width: 80%;
-    //        @media (max-width: 1440px) {
-    //     // flex-direction: row;
-    //     // align-items: center;
-    //   }
+        @media (max-width: 1440px){
+            margin: auto;
+        }
+        @media (max-width: 1280px){
+        // margin: 0 12px;
+        width: 100%;
+        }
+        @media (max-width: 375px){
+            margin: 0;
+        width: 100%;
+        }
         .title {
           width: 50%;
         }
         //*fix content width if I change video description
         .content {
           width: 80%;
+          @media (max-width: 1440px){
+            margin: 2em 0 0 0;
+          }
           h4 {
             margin: 0px 0 40px;
           }
