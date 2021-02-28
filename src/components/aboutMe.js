@@ -13,11 +13,11 @@ const AboutMe = () => {
   // }
   // `)
   return (
-    <div className="about-me">
+    <div id="about-me" className="about-me">
       <div className="container">
         <div className="inner-about">
           <div className="content">
-            <h3>About Me</h3>
+            <h3 >About Me</h3>
             <p>
               I'm a NYC-based software developer with a passion for building
               beautiful & functional websites. My background in the medical
