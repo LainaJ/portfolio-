@@ -28,9 +28,6 @@ const Footer = () => {
             <a href="https://medium.com/@lainakarosic">
               <img src={medium} alt="Medium" />
             </a>
-            <a href="/">
-              <img src={instagram} alt="Instagram" />
-            </a>
           {/* <ul>
             {featured.map(({ name, image }) => (
               <li key="name">
